@@ -1,0 +1,3 @@
+/local/home/sirghivl/COURSES/Cmake_course/01.HelloWordlExample/build/CMakeFiles/Executable.dir
+/local/home/sirghivl/COURSES/Cmake_course/01.HelloWordlExample/build/CMakeFiles/edit_cache.dir
+/local/home/sirghivl/COURSES/Cmake_course/01.HelloWordlExample/build/CMakeFiles/rebuild_cache.dir

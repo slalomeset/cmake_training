@@ -1,0 +1,4 @@
+/local/home/sirghivl/COURSES/Cmake_course/02.BasicProject/build/CMakeFiles/my_lib.dir
+/local/home/sirghivl/COURSES/Cmake_course/02.BasicProject/build/CMakeFiles/Executable.dir
+/local/home/sirghivl/COURSES/Cmake_course/02.BasicProject/build/CMakeFiles/edit_cache.dir
+/local/home/sirghivl/COURSES/Cmake_course/02.BasicProject/build/CMakeFiles/rebuild_cache.dir
