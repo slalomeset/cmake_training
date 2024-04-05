@@ -1,0 +1,4 @@
+# create configured directory
+# add config.h.in file that wil serve as template for generating config.h file
+# add variables in add config.h.in
+# add CMakeLists.txt inside with specified config.g.in element
