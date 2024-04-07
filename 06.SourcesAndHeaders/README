@@ -1,0 +1,2 @@
+# use variables instead of file names
+# set(EXE_SOURCES "main.c")
