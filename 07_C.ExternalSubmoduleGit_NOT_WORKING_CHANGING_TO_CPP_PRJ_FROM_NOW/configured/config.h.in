@@ -1,0 +1,10 @@
+#pragma once
+
+#include <stdint.h>
+
+char project_name[] = "@PROJECT_NAME@";
+char project_version[] = "@PROJECT_VERSION@";
+
+char project_version_major[] = "@PROJECT_VERSION_MAJOR@";
+char project_version_minor[] = "@PROJECT_VERSION_MINOR@";
+char project_version_patch[] = "@PROJECT_VERSION_PATCH@";
