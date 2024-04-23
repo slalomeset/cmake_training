@@ -1,22 +1,18 @@
-# this is the root CMakeLists
 cmake_minimum_required(VERSION 3.22)
 
 project(CppProjectTemplate VERSION 1.0.0 LANGUAGES C CXX)
 
-# [cmake variables]:    important native CMake variables
 set(CMAKE_CXX_STANDARD          17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS        OFF)
 
-set(LIBRARY_NAME    Library)
+set(LIBRARY_NAME Library)
 set(EXECUTABLE_NAME Executable)
 
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
-
-# include(AddGitSubmodule)
-# add_git_submodule(external/json)
-
+include(AddGitSubmodule)
 include(FetchContent)
+include(Docs)
 
 FetchContent_Declare(
     nlohmann_json
@@ -52,10 +48,6 @@ FetchContent_Declare(
     GIT_TAG v2.13.9
     GIT_SHALLOW TRUE)
 FetchContent_MakeAvailable(Catch2)
-
-# [cmake options or compilation flag]
-# cmd to execute: cmake -S ./ -B build -DCOMPILE_EXECUTABLE=ON
-# option(COMPILE_EXECUTABLE "Whether to compile the executable" OFF)
 
 add_subdirectory(configured)
 add_subdirectory(external)
